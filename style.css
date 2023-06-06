@@ -1,0 +1,86 @@
+*{
+  box-sizing:border-box;
+  font-size:1.3rem;
+  font-family: 'Aoboshi One', serif;
+}
+html{
+  height:100vh;
+}
+h1,h2{
+  width:100%;
+  text-align:center;
+}
+h1{
+  font-size:2rem;
+    font-family: 'Pacifico', cursive;
+  color:yellow;
+    text-shadow:1px 1px black;
+
+}
+h2{
+  margin:0;
+}
+body{
+  margin:0;
+  height:100%;
+  background:pink;
+  position:fixed;
+  width:100%;
+  overflow-y:scroll;
+  padding-bottom:3rem;
+  display:grid;
+  justify-items:space-between;
+}
+.container{
+    width: 66vw;
+    max-width: 500px;
+    min-width: 300px;
+    display: block;
+    margin: auto;
+    background: #ffffff35;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #00000011;
+    padding: 2rem 1rem;
+}
+.container a{
+  width:100%;
+  text-align:center;
+  margin:auto;
+  display:block;
+  margin-top:1rem;
+  text-decoration:underline;
+  cursor:pointer;
+}
+form{
+  display:grid;
+  flex-direction:column;
+  align-items:space-between;
+  
+}
+label{
+  text-align:center;
+  display:none;
+}
+
+button{
+  background:yellow;
+  border:none;
+  border-radius:6px;
+  color:black;
+  padding:1rem;
+  width:100%;
+  font-weight:600;
+  cursor:pointer;
+}
+input::placeholder{
+  color:yellow;
+  font-weight:600;
+}
+#fate{
+  text-align:center;
+}
+dialog::backdrop {
+  background: pink;
+  opacity:.6
+}
